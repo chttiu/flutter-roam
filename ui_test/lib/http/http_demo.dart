@@ -33,7 +33,7 @@ class _HttpDemoState extends State<HttpDemo> {
   }
 
   _getMethod() async {
-      var uri = Uri.parse('http://httpbin.org/get?name=mietl');
+      var uri = Uri.parse('http://httpbin.org/get?name=chttiu');
       var response = await http.get(uri);
 
       if(response.statusCode == 200){

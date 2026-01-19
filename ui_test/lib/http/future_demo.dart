@@ -48,7 +48,7 @@ class _FutureDemoState extends State<FutureDemo> {
   }
 
   Future<DartModel> _requestFutureData() async {
-    var uri = Uri.parse('http://httpbin.org/get?name=mietl');
+    var uri = Uri.parse('http://httpbin.org/get?name=chttiu');
     final response = await http.get(uri);
 
     var json = jsonDecode(response.body);
